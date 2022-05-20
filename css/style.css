@@ -1,0 +1,126 @@
+body {
+    font-family: 'lobster';
+    text-align: center;
+}
+
+#area {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    margin-top: 50px;
+    padding: 2px 2px 2px 2px;
+    position: relative;
+    color: black;
+    left: 37%;
+    top: 30%;
+    width: 360px;
+    height: auto;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+#intro {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    color: white;
+    top: 0;
+    background: url('https://s2.glbimg.com/Tiv3-BtUR7GYqAB5X4v4SDRsQZ4=/0x0:5793x3867/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/g/z/GvSBmzQuiuNll7lXS1hQ/anonymous-people-studying-together.jpg') no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-size: cover;
+    position: absolute;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#Textos {
+    font-size: 1.3em;
+}
+
+button {
+    margin: 0 5px;
+    font-size: 1.2em;
+}
+
+input {
+    width: 300px;
+}
+
+#tipos {
+    float: right;
+    right: 1%;
+    position: absolute;
+    color: blue;
+    margin-top: 9px;
+    top: 7%;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid black;
+    width: 365px;
+    height: 170px;
+    overflow: auto;
+    font-size: 1.2em;
+}
+
+details {
+    text-align: left;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+#errado {
+    background-color: crimson;
+    color: white;
+    width: 60px;
+    border: 1px;
+}
+
+#correto {
+    background-color: limegreen;
+    color: white;
+    width: 60px;
+    border: 1px;
+}
+
+details {
+    cursor: pointer;
+}
+
+#email {
+    width: 70%;
+    position: relative;
+    right: 3%;
+}
+
+#senha {
+    width: 70%;
+    position: relative;
+    right: 3%;
+    margin-top: 10px;
+}
+
+#email1 {
+    float: left;
+    left: 1%;
+    position: absolute;
+}
+
+#senha1 {
+    margin-top: 10px;
+    float: left;
+    left: 1%;
+    position: absolute;
+}
+
+#login {
+    right: 50%;
+    width: 60px;
+}
