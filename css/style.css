@@ -16,6 +16,9 @@ body {
     height: auto;
     border: 1px solid #CCC;
     border-radius: 1em;
+    display: block;
+    align-items: center;
+
 }
 
 #intro {
@@ -25,7 +28,7 @@ body {
     padding: 0;
     color: white;
     top: 0;
-    background: url('https://s2.glbimg.com/Tiv3-BtUR7GYqAB5X4v4SDRsQZ4=/0x0:5793x3867/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/g/z/GvSBmzQuiuNll7lXS1hQ/anonymous-people-studying-together.jpg') no-repeat bottom center scroll;
+    background: rgba(0, 0, 0, 0.162);
     background-position: 30% 45%;
     background-size: cover;
     position: absolute;
@@ -42,7 +45,12 @@ body {
 
 button {
     margin: 0 5px;
+    padding: 2px;
     font-size: 1.2em;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(2, 209, 2);
+
 }
 
 input {
