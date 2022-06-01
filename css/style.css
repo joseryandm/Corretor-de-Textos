@@ -49,7 +49,7 @@ button {
     font-size: 1.2em;
     border-radius: 10px;
     color: white;
-    background-color: rgb(2, 209, 2);
+    background-color: rgb(2, 209, 2) /*var(btcerto)*/;
 
 }
 
